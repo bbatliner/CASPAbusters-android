@@ -21,8 +21,8 @@ import retrofit.mime.TypedByteArray;
  */
 public class CaspaBustersAPI {
 
-//    private static final String API_URL = "https://caspabusters.herokuapp.com";
-    private static final String API_URL = "http://10.0.2.2:5000";
+    private static final String API_URL = "https://caspabusters.herokuapp.com";
+//    private static final String API_URL = "http://10.0.2.2:5000";
     private static final RestAdapter.LogLevel LOG_LEVEL = RestAdapter.LogLevel.FULL;
 
     /**
