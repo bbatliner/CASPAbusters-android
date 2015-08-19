@@ -31,7 +31,7 @@ public class ViewAvailableRequestsActivity extends Activity {
         setContentView(R.layout.activity_view_requests);
         ButterKnife.bind(this);
 
-        CaspaBustersAPI.getAllRequests(new Callback<ArrayList<Request>>() {
+        CaspaBustersAPI.getAvailableRequests(new Callback<ArrayList<Request>>() {
             @Override
             public void success(ArrayList<Request> requests, Response response) {
                 // Offset the UTC time so it is local
