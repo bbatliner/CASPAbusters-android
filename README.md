@@ -1,6 +1,6 @@
 # CASPAbusters-android
 
-The Android studio project for CASPAbusters Android app.
+The Android Studio project for CASPAbusters Android app.
 
 [Web server](https://github.com/bbatliner/CASPAbusters)
 
