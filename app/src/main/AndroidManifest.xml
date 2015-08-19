@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="beest.caspabusters" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RequestActivity"
+            android:label="@string/title_activity_request"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="beest.caspabusters.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ViewAvailableRequestsActivity"
+            android:label="@string/title_activity_view_requests"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="beest.caspabusters.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".WakeUpActivity"
+            android:label="@string/title_activity_wake_up"
+            android:parentActivityName=".ViewAvailableRequestsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewAvailableRequestsActivity" />
+        </activity>
+        <activity
+            android:name=".WaitForCallActivity"
+            android:label="@string/title_activity_wait_for_call" />
+        <activity
+            android:name=".MathProblemVerificationActivity"
+            android:label="@string/title_activity_math_problem_verification" >
+        </activity>
+        <activity
+            android:name=".ViewRequestActivity"
+            android:label="@string/title_activity_view_request" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ViewAvailableRequestsActivity" />
+        </activity>
+    </application>
+
+</manifest>

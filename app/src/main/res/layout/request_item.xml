@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/request_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brendan" />
+
+    <TextView
+        android:id="@+id/request_hall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_name"
+        android:text="1505" />
+
+    <TextView
+        android:id="@+id/request_wing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_name"
+        android:layout_toRightOf="@id/request_hall"
+        android:text="A" />
+
+    <TextView
+        android:id="@+id/request_earliest_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_hall"
+        android:text="08:00 AM" />
+
+    <TextView
+        android:id="@+id/request_item_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_hall"
+        android:layout_toRightOf="@id/request_earliest_time"
+        android:paddingLeft="2sp"
+        android:paddingRight="2sp"
+        android:text="@string/divider" />
+
+    <TextView
+        android:id="@+id/request_latest_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_hall"
+        android:layout_toRightOf="@id/request_item_divider"
+        android:text="09:00 AM" />
+
+</RelativeLayout>

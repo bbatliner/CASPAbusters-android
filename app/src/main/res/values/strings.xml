@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">CASPAbusters</string>
+
+    <string name="request_call">Request a wake up call</string>
+    <string name="wake_up_classmate">Wake up a classmate</string>
+
+    <string name="student_information">Student Information</string>
+    <string name="wake_up_time_range">Wake Up Time Range</string>
+    <string name="special_requests">Special Requests</string>
+    <string name="special_requests_description">If you would like to be woken up in a special way,
+        like with a song or a joke, please indicate so here!</string>
+
+    <string name="name_placeholder">Name</string>
+    <string name="earliest_time_placeholder">Set Earliest Time</string>
+    <string name="latest_time_placeholder">Set Latest Time</string>
+
+    <string name="submit">Submit Request</string>
+    <string name="cancel">Cancel Request</string>
+
+    <string name="wait_for_call_description">
+        Success! Thank you for requesting a wake-up call with CASPABusters! Please do not close
+        this app, because after your CASPAbuster calls you will be shown a math problem to prove
+        that you are actually awake!
+    </string>
+
+    <string name="divider">-</string>
+
+    <string-array name="halls_array">
+        <item>1501</item>
+        <item>1502</item>
+        <item>1503</item>
+        <item>1504</item>
+        <item>1505</item>
+        <item>1506</item>
+        <item>1507</item>
+    </string-array>
+
+    <string-array name="wings_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string name="confirm_phone_dialog_title">Is this your phone number?</string>
+    <string name="confirm_phone_dialog_yes">Yes</string>
+    <string name="confirm_phone_dialog_no">No</string>
+
+    <string name="new_phone_dialog_title">Please enter your phone number:</string>
+    <string name="new_phone_dialog_neutral">Done!</string>
+
+    <string name="message_label">Message:</string>
+
+    <string name="hello_world">Hello, World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_request">Request a wake up call</string>
+    <string name="title_activity_wake_up">Wake them up!</string>
+    <string name="title_activity_view_requests">View all requests</string>
+    <string name="title_activity_wait_for_call">Wait for call</string>
+    <string name="title_activity_math_problem_verification">MathProblemVerificationActivity</string>
+
+    <string name="EXTRA_EARLIEST_WAKE_TIME">beest.caspabusters.extra.EARLIEST_WAKE_TIME</string>
+    <string name="EXTRA_LATEST_WAKE_TIME">beest.caspabusters.extra.LATEST_WAKE_TIME</string>
+    <string name="EXTRA_REQUEST_ID">beest.caspabusters.extra.REQUEST_ID</string>
+    <string name="EXTRA_PHONE_NUMBER">beest.caspabusters.extra.PHONE_NUMBER</string>
+
+    <item type="id" name="TAG_VIEW_HOLDER" />
+    <item type="id" name="TAG_PHONE_NUMBER" />
+
+    <string name="math_submit">Submit</string>
+    <string name="title_activity_view_request">ViewRequestActivity</string>
+</resources>
